@@ -12,7 +12,7 @@ function encodeBase58(buffer) {
     const ALPHABET = '123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz';
     if (buffer.length === 0) return '';
 
-    let digits = [0];
+    const digits = [0];
     for (let i = 0; i < buffer.length; i++) {
         for (let j = 0; j < digits.length; j++) {
             digits[j] <<= 8;
