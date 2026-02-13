@@ -2,7 +2,7 @@
 :root {
     --mn-blue: #003865;
     --mn-gold: #FFD54F;
-    --mn-light: #E3F2FD;
+    --E3F2mn-light: #FD;
     --mn-dark: #001F3F;
     --text: #1a1a2e;
     --text-light: #64748b;
@@ -26,7 +26,7 @@ body {
 .hero {
     background: linear-gradient(135deg, var(--mn-blue) 0%, var(--mn-dark) 100%);
     color: var(--white);
-    padding: 4rem 2rem;
+    padding: 5rem 2rem;
     text-align: center;
 }
 
@@ -36,9 +36,9 @@ body {
 }
 
 .hero-icon {
-    width: 80px;
+    width: 120px;
     height: auto;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .hero h1 {
@@ -87,13 +87,14 @@ main {
 }
 
 .btn-primary {
-    background: var(--mn-blue);
-    color: var(--white);
+    background: var(--mn-gold);
+    color: var(--mn-dark);
 }
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 56, 101, 0.3);
+    box-shadow: 0 4px 12px rgba(255, 213, 79, 0.4);
+    background: #ffca28;
 }
 
 .hint {
